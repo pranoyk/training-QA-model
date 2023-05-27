@@ -1,0 +1,29 @@
+[
+    {
+        "context": "module alert-group { \n namespace 'http://example.com/alert-group'; \n prefix alert-group; \n  \ncontainer alert-groups { \n container config { \n leaf-list name { \n type string; \n } \n } \n list group-config { \n key 'tenant'; \n leaf tenant { \n type string; \n } \n leaf-list name { \n type string; \n } \n } \n } \n }. Based on the above YANG model return me RESTCONF-API method and request body for the questions asked, [Method: GET; API: /restconf/data/alert-group:alert-groups]",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "Retrieve all the alert groups?",
+                "answers": [
+                    {
+                        "text": "Method: GET; API: /restconf/data/alert-group:alert-groups",
+                        "answer_start": 428
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "Can you give me all the alert groups?",
+                "answers": [
+                    {
+                        "text": "Method: GET; API: /restconf/data/alert-group:alert-groups",
+                        "answer_start": 428
+                    }
+                ]
+            }
+        ]
+    }
+]

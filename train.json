@@ -1,0 +1,67 @@
+[   
+    {
+        "context": "module icons { \n yang-version 1.1; \n namespace 'http://anutanetworks.com/icons'; \n prefix ico; \n\n organization \n 'Anuta Networks'; \n \n revision 2021-06-30 { \n description \n 'Report Infra Icons'; \n } \n\n container icons { \n list category { \n key 'name'; \n leaf name { \n type string; \n } \n leaf description { \n type string; \n } \n list icon { \n key 'name'; \n leaf name { \n type string; \n } \n leaf description { \n type string; \n } \n leaf url { \n type string; \n } \n } \n } \n } \n } \n. Based on the above YANG model return me RESTCONF-API method and request body for the questions asked, [Method: GET; API: /restconf/data/icons:icons/category]",
+        "qas": [
+            {
+                "id": "00001",
+                "is_impossible": false,
+                "question": "Retrieve all the available icons?",
+                "answers": [
+                    {
+                        "text": "Method: GET; API: /restconf/data/icons:icons/category",
+                        "answer_start": 617
+                    }
+                ]
+            },
+            {
+                "id": "00002",
+                "is_impossible": false,
+                "question": "Give me all the icons?",
+                "answers": [
+                    {
+                        "text": "Method: GET; API: /restconf/data/icons:icons/category",
+                        "answer_start": 617
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "context": "module example-forms {\n yang-version 1.1; \n namespace 'http://example.com/example-forms'; \n prefix js; \n \n organization \n 'Example Networks'; \n \n revision 2021-11-19; \n \n container forms { \n list form { \n key 'name'; \n leaf name { \n type string; \n } \n leaf description { \n type string; \n } \n leaf-list tags { \n type string; \n } \n leaf form-schema { \n description \n 'Json payload.'; \n type string; \n } \n } \n } \n }. Based on the above YANG model return me RESTCONF-API method and request body for the questions asked, [Method: GET; API: /example-forms:forms/form]",
+        "qas": [
+            {
+                "id": "00003",
+                "is_impossible": false,
+                "question": "Can you list all the available forms?",
+                "answers": [
+                    {
+                        "text": "Method: GET; API: /example-forms:forms/form",
+                        "answer_start": 546
+                    }
+                ]
+            },
+            {
+                "id": "00004",
+                "is_impossible": false,
+                "question": "Can you give me all the available forms?",
+                "answers": [
+                    {
+                        "text": "Method: GET; API: /example-forms:forms/form",
+                        "answer_start": 546
+                    }
+                ]
+            },
+            {
+                "id": "00005",
+                "is_impossible": false,
+                "question": "Can you show me all the forms?",
+                "answers": [
+                    {
+                        "text": "Method: GET; API: /example-forms:forms/form",
+                        "answer_start": 546
+                    }
+                ]
+            }
+        ]
+    }
+]

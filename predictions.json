@@ -1,0 +1,11 @@
+[
+    {
+        "context": "module feature-toggle { \n namespace 'http://example.com/feature-toggle'; \n prefix ft; \n \n revision 2020-05-14 { \n description \n 'Initial revision'; \n } \n \n container feature-toggles { \n list feature-toggle { \n 0description \n 'The feature toggles enables a state information to decide if a feature/functionality should be enabled or disabled.'; \n key 'name'; \n leaf name { \n type string; \n description \n 'This is a predefined string value, usually populated by seed data only. This predefined key can be used to identify the features'; \n mandatory true; \n } \n leaf enable { \n type boolean; \n description \n 'This value tells whether to activate the feature'; \n } \n leaf description { \n type string; \n description \n 'Brief description about the feature toggle'; \n } \n } \n } \n }. Based on the above YANG model return me RESTCONF-API method and request body for the questions asked, [Method: GET; API: /restconf/data/feature-toggle:feature-toggles/feature-toggle]",
+        "qas": [
+            {
+                "question": "Can you give me all the feature-toggles?",
+                "id": "0"
+            }
+        ]
+    }
+]
