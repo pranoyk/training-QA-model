@@ -9,7 +9,7 @@
                 "answers": [
                     {
                         "text": "Method: GET; API: /restconf/data/alert-group:alert-groups",
-                        "answer_start": 428
+                        "answer_start": 432
                     }
                 ]
             },
@@ -20,7 +20,7 @@
                 "answers": [
                     {
                         "text": "Method: GET; API: /restconf/data/alert-group:alert-groups",
-                        "answer_start": 428
+                        "answer_start": 432
                     }
                 ]
             }

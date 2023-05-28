@@ -9,7 +9,7 @@
                 "answers": [
                     {
                         "text": "Method: GET; API: /restconf/data/icons:icons/category",
-                        "answer_start": 617
+                        "answer_start": 580
                     }
                 ]
             },
@@ -20,7 +20,7 @@
                 "answers": [
                     {
                         "text": "Method: GET; API: /restconf/data/icons:icons/category",
-                        "answer_start": 617
+                        "answer_start": 580
                     }
                 ]
             }
@@ -36,7 +36,7 @@
                 "answers": [
                     {
                         "text": "Method: GET; API: /example-forms:forms/form",
-                        "answer_start": 546
+                        "answer_start": 520
                     }
                 ]
             },
@@ -47,7 +47,7 @@
                 "answers": [
                     {
                         "text": "Method: GET; API: /example-forms:forms/form",
-                        "answer_start": 546
+                        "answer_start": 520
                     }
                 ]
             },
@@ -58,7 +58,7 @@
                 "answers": [
                     {
                         "text": "Method: GET; API: /example-forms:forms/form",
-                        "answer_start": 546
+                        "answer_start": 520
                     }
                 ]
             }
